@@ -16,7 +16,6 @@ import org.springframework.stereotype.Component
 @SpringBootApplication
 class DemoApplication
 
-// docker run --rm -p 7474:7474 -p 7687:7687 --env NEO4J_AUTH=none neo4j:4.4
 fun main(args: Array<String>) {
     runApplication<DemoApplication>(*args)
 }
